@@ -13,8 +13,49 @@ body{
     margin: 0px;
 }
 
+nav {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+nav ul.site-nav {
+    width: auto;
+    float: right;
+    padding-right: 3%;
+    height: inherit;
+    margin-top: 12px;
+    margin-bottom: 2px;
+    
+}
 
+nav ul.site-nav li.site-nav-item {
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: middle;
+    
+}
 
+nav ul.site-nav li.site-nav-item a {
+    text-decoration: none;
+    color: limegreen;
+    font-size: 20px;
+    height: 50px;
+    width: 90px;
+    padding: 10px 20px;
+}
+
+nav ul.site-nav li.site-nav-item a:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white; 
+    font-size: 20px;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+}
+/*
 table {
 	font-family: sans-serif;
 	font-size: 30px;
@@ -73,6 +114,8 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
+
+*/
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 .slides {
