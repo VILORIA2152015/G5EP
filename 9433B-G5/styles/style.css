@@ -310,3 +310,16 @@ h6.nav-name {
     font-size: 30px;
     margin-bottom: 10px;
 }
+
+#aboutteam{
+    width: 250px;
+    height: 250px;
+}
+
+.aboutusteam p{
+    font-size: 25px;
+}
+
+span {
+    font-size: 50px;
+}
