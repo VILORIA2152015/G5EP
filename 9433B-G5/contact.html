@@ -3,32 +3,33 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact Us</title>
+    <title></title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body> 
-    <nav>
+     <nav>
         <ul class="site-nav">
             <li class="site-nav-item">
-                <a href="index.html">Home</a>
+                <a href="home.html">Home</a>
             </li >
             <li class="site-nav-item"><a href="gallery.html">Gallery</a></li>
-            <li class="site-nav-item"><a href="about.html">About Us</a></li>
-            <li class="site-nav-item"><a href="contact.html">Contact</a></li>
-    </ul>
-    
+            <li class="site-nav-item"><a href="home.html">About Us</a></li>
+            <li class="site-nav-item"><a href="home.html">Contact</a></li>
+        </ul>
     </nav> 
-    <header>
-       <img src="website%20pics/mounts.jpg"/>
-    </header>
+
     
     
     
     
-<form name="htmlform" method="post" action="html_form_send.php">
-<table width="450px">
+<div class="contacts-container">
+    <h6 class="nav-name">Contact</h6>
+<div class="feedback-table">
+    <p>Give us a feedback:</p>
+<form class="feedback" name="htmlform" method="post">
+<table class="feedback-table" width="450px">
 </tr>
-<tr>
+<tr class="feedback-table-tr">
  <td valign="top">
   <label for="first_name">First Name *</label>
  </td>
@@ -37,47 +38,82 @@
  </td>
 </tr>
 
-<tr>
- <td valign="top"">
+<tr class="feedback-table-tr">
+ <td class="feedback-table-tr-td" valign="top"">
   <label for="last_name"">Last Name *</label>
  </td>
- <td valign="top">
+ <td class="feedback-table-tr-td" valign="top">
   <input  type="text" name="last_name" maxlength="50" size="30">
  </td>
 </tr>
-<tr>
- <td valign="top">
+    
+<tr class="feedback-table-tr">
+ <td class="feedback-table-tr-td" valign="top">
   <label for="email">Email Address *</label>
  </td>
- <td valign="top">
+ <td class="feedback-table-tr-td" valign="top">
   <input  type="text" name="email" maxlength="80" size="30">
  </td>
-
 </tr>
-<tr>
- <td valign="top">
+
+<tr class="feedback-table-tr">
+ <td class="feedback-table-tr-td" valign="top">
   <label for="telephone">Telephone Number</label>
  </td>
- <td valign="top">
+ <td class="feedback-table-tr-td" valign="top">
   <input  type="text" name="telephone" maxlength="30" size="30">
  </td>
 </tr>
 <tr>
- <td valign="top">
+ <td class="feedback-table-tr-td" valign="top">
   <label for="comments">Comments *</label>
  </td>
- <td valign="top">
+ <td class="feedback-table-tr-td" valign="top">
   <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
  </td>
 
 </tr>
 <tr>
  <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">   ( <a href="http://www.freecontactform.com/html_form.php">HTML Form</a> )
+  <input type="submit" value="Submit">
  </td>
 </tr>
 </table>    
+
+</div>
+
+<div class="icon-contacts">
+    <table class="contacts-list">
+    <tr class="contacts-list-tr">
+        <td class="contacts-list-tr-td"><img class="contact-icon" src="website%20pics/mail.png" alt=""/></td>
+        <td class="contacts-list-tr-td"><p class="mail"><a href="">environ-mental@gmail.com</a></p></td>
+    </tr>
     
-	
+    <tr class="contacts-list-tr">
+        <td class="contacts-list-tr-td"><img class="contact-icon" src="website%20pics/facebook.png" alt=""/>
+</td>
+        <td class="contacts-list-tr-td"><p class="fb-page"><a href="">https://www.facebook.com/environ-mental</a></p>
+</td>
+    </tr>
+    
+    <tr class="contacts-list-tr">
+        <td class="contacts-list-tr-td"><img class="contact-icon" src="website%20pics/twitter.png" alt=""/>
+</td>
+        <td class="contacts-list-tr-td"><p class="twitter-page"><a href="">https://www.twitter.com/environ-mental</a></p>
+</td>
+    </tr>
+    
+    <tr class="contacts-list-tr">
+        <td class="contacts-list-tr-td"><img class="contact-icon" src="website%20pics/phone.png" alt=""/>
+</td>
+        <td class="contacts-list-tr-td"><p class="org-mobile">09269875687</p>
+</td>
+    </tr>
+</table>
+
+</div>
+</div>    
+
+
 </body>
 </html>

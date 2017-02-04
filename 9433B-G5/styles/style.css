@@ -268,3 +268,22 @@ input#img-4:checked ~ .nav-dots label#img-dot-4{
 hr{
 	border:1px solid;
 }
+
+
+.icon-contacts .contacts-list .contacts-list-tr .contacts-list-tr-td img {
+    height: 20px;
+    width: 20px;
+}
+
+.contacts-container {
+    padding-top: 5%;
+}
+
+div.contacts-container {
+    padding-left: 5%;
+}
+
+h6.nav-name {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
