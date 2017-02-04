@@ -123,6 +123,7 @@ p{
 table{
 	text-align:center;
 	border: 10px solid black;
+	background-color: #7ABBB9;
 }
 table tr{
 	border: 2px solid black;
@@ -263,6 +264,28 @@ input#img-2:checked ~ .nav-dots label#img-dot-2,
 input#img-3:checked ~ .nav-dots label#img-dot-3,
 input#img-4:checked ~ .nav-dots label#img-dot-4{
 	background: rgba(0, 0, 0, 0.8);
+}
+
+.right{
+	text-align: right;
+}
+
+.left{
+	text-align: left;
+}
+
+.title{
+	text-align: center;
+}
+
+.images2{
+	transform: translateX(335px);
+	height: 50%;
+	width: 50%;
+}
+
+.article p{
+	font-size: 20px;
 }
 
 hr{
