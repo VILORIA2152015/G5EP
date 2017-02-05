@@ -313,7 +313,6 @@ div.img {
     float: left;
     width: 400px;
     height: 290px;
-    
     transition:all 1s ease;
 }
 
@@ -346,4 +345,21 @@ div.desc {
 
 span {
     font-size: 50px;
+}
+
+.gallery-image {
+    width: 300px;
+    height: 200px;
+}
+
+.gallery-table {
+    width:100%;
+}
+
+table.feedback-table {
+    width: 450px;
+}
+
+td.feedback-table-tr-td {
+    vertical-align: top;
 }
