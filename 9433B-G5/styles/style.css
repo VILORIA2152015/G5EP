@@ -363,3 +363,37 @@ table.feedback-table {
 td.feedback-table-tr-td {
     vertical-align: top;
 }
+.about-heading {
+    text-align: center;
+    font-size: 90px;
+    font-family: Philosopher;
+}
+
+#collage {
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#meet {
+    text-align: center;
+    font-size: 90px;
+    font-family: Philosopher;
+}
+
+#para1 {
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 25px;
+}
+
+#para2 {
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 25px;
+}
+
+.aboutusteam img {
+    width: 250px;
+    height: 250px;
+}
