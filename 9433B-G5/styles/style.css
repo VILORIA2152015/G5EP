@@ -357,11 +357,14 @@ span {
 
 .gallery-image {
     width: 300px;
-    height: 200px;
+    height: 200px;]
+    
 }
 
-.gallery-table {
-    width:100%;
+.gallery-format {
+   float: right; 
+    margin: 0px 0px 15px 15px;
+    
 }
 
 table.feedback-table {
