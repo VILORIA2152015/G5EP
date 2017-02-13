@@ -331,3 +331,35 @@ td.feedback-table-tr-td {
     width: 250px;
     height: 250px;
 }
+
+/*for the Join Us Page*/
+
+
+.joinUs-container {
+    height: 100%;
+}
+
+
+.joinUs-form-container {
+    display: block;
+    width: 30%;
+}
+
+.joinUs-container .joinUs-form-container form.join label {
+    float: left;
+}
+
+footer a img, footer img {
+    width: 45px;
+    height: 45px;
+}
+footer a {
+    padding-left: 50px;
+    padding-right: 50px;   
+}
+
+footer #footer-contents{
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+}
