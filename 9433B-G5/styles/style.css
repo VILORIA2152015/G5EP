@@ -351,7 +351,7 @@ footer #footer-contents{
 }
 
 #footer-container{
-    width: 500px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -359,6 +359,25 @@ footer #footer-contents{
 #copyright-middle{
     width: 135px;
     margin-right: 0px;
+    
+} 
+#copyright-middle p{
+    height: 30px;
+}
+#footer-contents ul{
+       float: left;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+     margin-bottom: 8px;
+}
+
+#footer-contents ul li{
+       padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    height: 30px;
 }
 
 
