@@ -25,6 +25,8 @@ nav ul.site-nav {
     height: inherit;
     margin-top: 12px;
     margin-bottom: 2px;
+    font-family: Yanone Kaffeesatz;
+    font-size: 35px;
     
 }
 
@@ -362,4 +364,31 @@ footer #footer-contents{
     margin-right: auto;
     margin-left: auto;
     width: auto;
+}
+
+/* Mga h1 sa Home Page */
+
+#sixthID {
+    font-family: Varela Round;
+    font-size: 35px;
+}
+
+#ninthID {
+    font-family: Varela Round;
+    font-size: 35px;
+}
+
+#twelvethID {
+    font-family: Varela Round;
+    font-size: 35px;
+}
+
+#fifthteenthID {
+    font-family: Varela Round;
+    font-size: 35px;
+}
+
+#seventhteenthID {
+    font-family: Francois One;
+    font-size: 55px;
 }
