@@ -4,15 +4,14 @@ header img{
 }
 
 body{
-    width: 100%;
     margin: 0px;
-	background-image: url("styles/bgblurred.jpg");
+	background-image: url("images/bgblurred.jpg");
     background-size: cover;
-    height: 100%;
     background-repeat: no-repeat;
     position: relative;
 }
 
+/*Navigation Bar*/
 nav {
     background-color: black;
     width: 100%;
@@ -51,7 +50,6 @@ nav ul.site-nav li.site-nav-item a {
 
 nav ul.site-nav li.site-nav-item a:hover {
     text-decoration: none;
-    background-color: black;
     color: white; 
     font-size: 20px;
     height: 50px;
@@ -60,13 +58,12 @@ nav ul.site-nav li.site-nav-item a:hover {
     vertical-align: middle;
 }
 
+/*Index.html*/
 p.descriptions{
 	font-size:1.5em;
 	text-align: justify;
 	padding: 20px;
 }
-
-
 
 .picture1{
 	float:right;
@@ -114,7 +111,7 @@ p.descriptions{
 }
 
 .head {
-    padding: 0;
+    padding-top:0;
     width: 100%;
     height: auto;
     display: block;
@@ -125,7 +122,7 @@ p.descriptions{
 }
 
 #bodyContainer1{
-  width: 75%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -140,10 +137,10 @@ p.descriptions{
 }
 
 .imgArticle{
-width: 80%;
-    
-margin: 0 auto;
+	width: 80%;    
+	margin: 0 auto;
 }
+
 .imgArticle img{
 	height:50%;
 	width:100%;
@@ -159,30 +156,7 @@ p{
 	text-align: justify;
 	padding:20px;
 }
-
-hr{
-	border:1px solid;
-}
-
-
-.icon-contacts .contacts-list .contacts-list-tr .contacts-list-tr-td img {
-    height: 20px;
-    width: 20px;
-}
-
-.contacts-container {
-    padding-top: 5%;
-}
-
-div.contacts-container {
-    padding-left: 5%;
-}
-
-h6.nav-name {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
+/*Gallery.html*/
 div.img {
     margin: 5px;
     border: 1px solid #ccc;
@@ -200,27 +174,10 @@ div.img:hover {
 }
 
 div.img img {
+	position: relative;
+	overflow: hidden;
     width: 100%;
     height: 100%;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-
-#aboutteam{
-    width: 250px;
-    height: 250px;
-}
-
-.aboutusteam p{
-    font-size: 25px;
-}
-
-span {
-    font-size: 50px;
 }
 
 .gallery-image {
@@ -231,16 +188,14 @@ span {
 .gallery-format {
    float: right; 
     margin: 0px 0px 15px 15px;
-    
+	position:absolute;    
 }
 
-table.feedback-table {
-    width: 450px;
+/*AboutUs.html*/
+span {
+    font-size: 50px;
 }
 
-td.feedback-table-tr-td {
-    vertical-align: top;
-}
 .about-heading {
     text-align: center;
     font-size: 90px;
@@ -276,9 +231,7 @@ td.feedback-table-tr-td {
     height: 250px;
 }
 
-/*for the Join Us Page*/
-
-
+/*JoinUs.html*/
 .joinUs-container {
     position:relative;
     padding-top: 50px;
@@ -384,22 +337,7 @@ footer #footer-contents{
 
 /* Mga h1 sa Home Page */
 
-#sixthID {
-    font-family: Varela Round;
-    font-size: 35px;
-}
-
-#ninthID {
-    font-family: Varela Round;
-    font-size: 35px;
-}
-
-#twelvethID {
-    font-family: Varela Round;
-    font-size: 35px;
-}
-
-#fifthteenthID {
+#sixthID,#ninthID,#twelvethID,#fifthteenthID{
     font-family: Varela Round;
     font-size: 35px;
 }

@@ -1,0 +1,6 @@
+added some new IDs from fourthID to twentysixthID to index.html
+replaced contactUs link with JoinUs link to all .html files
+added footer to all .html files
+changed the slider into a banner and put it inside index.html, gallery.html, joinUs.html
+added new folder named, "iamges" which contains all the pictures that had been transferred from styles folder
+added some new IDs from teampic1 to  teampic5 to aboutUs.html
