@@ -8,27 +8,24 @@ body{
 	background-image: url("images/bgblurred.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
 }
 
 /*Navigation Bar*/
 nav {
-    background-color: black;
-    width: 100%;
-    height: 50px;
+    background-color: #4EC417;
+	float: left;
+	width: 150px;
+	height: 100%;
     position: fixed;
 	z-index: 10;
+	opacity: .7;
 }
 
 nav ul.site-nav {
-    width: auto;
-    float: right;
-    padding-right: 3%;
     height: inherit;
-    margin-top: 12px;
-    margin-bottom: 2px;
+    margin-top: 200px;
     font-family: Yanone Kaffeesatz;
-    font-size: 35px;
+    font-size: 2em;
     
 }
 
@@ -36,7 +33,8 @@ nav ul.site-nav li.site-nav-item {
     display: inline-block;
     list-style-type: none;
     vertical-align: middle;
-    
+    background-color: blue;
+	border-radius: 5px;
 }
 
 nav ul.site-nav li.site-nav-item a {
@@ -45,17 +43,14 @@ nav ul.site-nav li.site-nav-item a {
     font-size: 20px;
     height: 50px;
     width: 90px;
-    padding: 10px 20px;
+    padding: 10px;
 }
 
 nav ul.site-nav li.site-nav-item a:hover {
     text-decoration: none;
     color: white; 
-    font-size: 20px;
-    height: 50px;
     width: 120px;
-    text-align: center;
-    vertical-align: middle;
+	margin-left: 20px;
 }
 
 /*Index.html*/
@@ -111,13 +106,12 @@ p.descriptions{
 }
 
 .head {
-    padding-top:0;
-    width: 100%;
-    height: auto;
+    padding-left:12%;
+    width: 88%;
+    height: 250px;
     display: block;
     margin: 0 auto;
     position: relative;
-	padding-top: 50px;
     overflow: auto;
 }
 
