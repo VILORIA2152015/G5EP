@@ -12,7 +12,7 @@ body{
 
 /*Navigation Bar*/
 nav {
-    background-color: #4EC417;
+    background-color: #025A7E;
 	float: left;
 	width: 150px;
 	height: 100%;
@@ -33,13 +33,13 @@ nav ul.site-nav li.site-nav-item {
     display: inline-block;
     list-style-type: none;
     vertical-align: middle;
-    background-color: blue;
+    background-color: #65CBFB;
 	border-radius: 5px;
 }
 
 nav ul.site-nav li.site-nav-item a {
     text-decoration: none;
-    color: limegreen;
+    color: #03872F;
     font-size: 20px;
     height: 50px;
     width: 90px;
