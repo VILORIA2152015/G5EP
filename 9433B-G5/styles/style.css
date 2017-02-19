@@ -329,6 +329,8 @@ form .button:hover {
 footer{
     position: absolute;
     width: 100%;
+    background-color: rgba(62, 64, 61, 1);
+
 }
 footer a img, footer img {
     width: 45px;
@@ -380,7 +382,9 @@ footer #footer-contents{
     height: 30px;
 }
 
-
+#footer-contents ul li:nth-child(3){
+    display: none;
+}
 
 /* Mga h1 sa Home Page */
 

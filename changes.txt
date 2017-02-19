@@ -3,5 +3,6 @@ replaced contactUs link with JoinUs link to all .html files
 added footer to all .html files
 changed the slider into a banner and put it inside index.html, gallery.html, joinUs.html
 added new folder named, "iamges" which contains all the pictures that had been transferred from styles folder
-added some new IDs from teampic1 to  teampic5 to aboutUs.html
-removed tables used in positioning images
+added some new IDs from teampic1 to  teampic5 and aboutUs-container to aboutUs.html
+removed tables used in positioning images in gallery.html
+Added the paragraph “I was just a normal person who never want to voice out my feelings for our environments. When I met the founder it changed my life and now I am willing to be a voice to protect our environment.” In aboutUs.html
